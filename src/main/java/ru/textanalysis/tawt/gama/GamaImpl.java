@@ -139,4 +139,12 @@ public class GamaImpl implements Gama {
 //			.collect(Collectors.toList());
 		return null;//todo
 	}
+
+	/*public String replaceNumbersWithWords(String text) {
+		GamaParser gamaParser = new GamaParserDefault();
+		List<String> parsedText = gamaParser.getParserBearingPhraseWithPunctuation(text);
+
+		NumeralsConverter nc = new NumeralsConverter();
+		return nc.replaceNumber(parsedText);
+	}*/
 }
